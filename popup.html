@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <script src="jquery-1.11.0.min.js"></script>
+    <script src="popup.js"></script>
+    <script src="bitticker.js"></script>
+    <style>
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      a.active {
+        font-weight: bold;
+      }
+      .popup div {
+        width: 75px;
+        text-align: right;
+        font-family: 'Arial';
+        font-size: 14px;
+      }
+      .header {
+        font-weight: bold;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body class="popup">
+    <div class="header">Currency</div>
+    <div><a href="#" class="currency" id="BTC">BTC</a></div>
+    <div><a href="#" class="currency" id="ETH">ETH</a></div>
+    <div class="header">Units</div>
+    <div><a href="#" class="units" id="USD">USD</a></div>
+    <div><a href="#" class="units" id="GBP">GBP</a></div>
+    <div><a href="#" class="units" id="EUR">EUR</a></div>
+  </body>
+</html>
